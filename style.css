@@ -92,14 +92,13 @@ a background-color and border-color of #007bff, no text-decoration, a pad
 Add a style for the hover state of all a tags with a btn class within a div of class questions. On hover,
 those links should have a background and border color of #0069d9.*/
 div.questions p.btn {
-  text-decoration: none;
   color: #fff;
+  text-decoration: none;
   background-color: #007bff;
   border-color: #007bff;
   border-radius: 5px;
   display: inline;
   font-size: 20px;
-  font-color: #ccc;
   padding: 18px;
 }
 
