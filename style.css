@@ -91,7 +91,7 @@ The style should make the a tags have a border-radius of 5px, a color of�
 a background-color and border-color of #007bff, no text-decoration, a padding of 18px, and a font-size of 20px.
 Add a style for the hover state of all a tags with a btn class within a div of class questions. On hover,
 those links should have a background and border color of #0069d9.*/
-div.questions p a.btn {
+div.questions p.btn {
   text-decoration: none;
   color: #fff;
   background-color: #007bff;
