@@ -74,6 +74,28 @@ div.jumbotron {
   line-height: 40px;
 }
 
+div.questions {
+  padding-top: 0;
+  padding-right: 40px;
+  padding-bottom: 0;
+  padding-left: 40px;
+}
+
+/*All a tags of class btn inside a div of class qustions */
+/*Add a style for all a tags with a btn class within a div of class questions.
+The style should make the a tags have a border-radius of 5px, a color of #FFF,
+a background-color and border-color of #007bff, no text-decoration, a padding of 18px, and a font-size of 20px.
+Add a style for the hover state of all a tags with a btn class within a div of class questions. On hover,
+those links should have a background and border color of #0069d9.*/
+div.questions a.btn {
+  text-decoration: none;
+  color: #fff;
+  background-color: #007bff;
+  border-color: #007bff;
+  border-radius: 5px;
+
+}
+
 footer{
   border-top: 1px solid #ccc;
   margin-top: 80px;
