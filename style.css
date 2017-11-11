@@ -97,13 +97,18 @@ div.questions p {
 
 div.questions p.btn {
   border-radius: 5px;
-  color: #fff;
+  color: #FFF;
   background-color: #007bff;
   border-color: #007bff;
   text-decoration: none;
   padding-top: 18px;
   font-size: 20px;
   display:inline;
+}
+
+div.questions a.btn:hover{
+  background-color: #0069d9;
+  border-color: #0069d9;
 }
 
 footer{
