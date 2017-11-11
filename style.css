@@ -41,14 +41,15 @@ header h3 {
   font-size: 30px
 }
 
+#header a:hover {
+  text-decoration: underline;
+}
+
 header h3 a{
   text-decoration: none;
   color: #868e96;
 }
 
-header #hib a:hover {
-  text-decoration: underline;
-}
 
 
 }
