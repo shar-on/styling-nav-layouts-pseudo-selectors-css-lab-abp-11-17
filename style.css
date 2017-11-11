@@ -46,6 +46,10 @@ header h3 a{
   color: #868e96;
 }
 
+header h3 a:hover {
+  text-decoration: underline;
+}
+
 
 }
 main{
