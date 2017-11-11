@@ -96,18 +96,13 @@ div.questions p {
 }
 
 div.questions a.btn {
+  border-radius: 5px;
   color: #fff;
-  text-decoration: none;
   background-color: #007bff;
   border-color: #007bff;
-  border-radius: 5px;
-  display: inline;
-  font-size: 20px;
+  text-decoration: none;
   padding-top: 18px;
-  padding-right: 18px;
-  padding-bottom: 18px;
-  padding-left: 18px;
-
+  font-size: 20px;
 }
 
 footer{
