@@ -95,7 +95,7 @@ div.questions p {
   margin-top: 30px;  
 }
 
-.btn {
+div.questions a.btn {
   color: #fff;
   text-decoration: none;
   background-color: #007bff;
