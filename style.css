@@ -11,7 +11,7 @@ header {
   border-bottom: 1px solid #ccc;
 }
 
-header nav { 
+header nav {
   float: right;
 }
 
@@ -31,11 +31,23 @@ nav a {
   font-size: 18px;
 }
 
-#header a{
+a:hover {
+  text-decoration: underline;
+  color: #0056b3;
+}
+
+header h3 {
+  float: left;
+  font-size: 30px
+}
+
+header h3 a{
   text-decoration: none;
   color: #868e96;
 }
 
+
+}
 main{
   margin-top: 20px;
 }
