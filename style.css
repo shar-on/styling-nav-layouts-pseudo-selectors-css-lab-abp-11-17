@@ -81,6 +81,10 @@ div.questions {
   padding-left: 20px;
 }
 
+div.questions h4.questions {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
 /*All a tags of class btn inside a div of class qustions */
 /*Add a style for all a tags with a btn class within a div of class questions.
 The style should make the a tags have a border-radius of 5px, a color of #FFF,
