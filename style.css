@@ -11,7 +11,7 @@ header {
   border-bottom: 1px solid #ccc;
 }
 
-header nav { 
+header nav {
   float: right;
 }
 
@@ -31,11 +31,28 @@ nav a {
   font-size: 18px;
 }
 
-#header a{
+nav a:hover {
+  text-decoration: underline;
+  color: #0056b3;
+}
+
+header h3 {
+  float: left;
+  font-size: 30px
+}
+
+#header a:hover {
+  text-decoration: underline;
+}
+
+header h3 a{
   text-decoration: none;
   color: #868e96;
 }
 
+
+
+}
 main{
   margin-top: 20px;
 }
@@ -56,6 +73,42 @@ div.jumbotron {
   padding: 0 40px 0 40px;
   line-height: 40px;
 }
+
+div.questions {
+  padding-top: 0;
+  padding-right: 20px;
+  padding-bottom: 0;
+  padding-left: 20px;
+}
+
+div.questions h4 {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+/*All a tags of class btn inside a div of class qustions */
+/*Add a style for all a tags with a btn class within a div of class questions.
+The style should make the a tags have a border-radius of 5px, a color of #FFF,
+a background-color and border-color of #007bff, no text-decoration, a padding of 18px, and a font-size of 20px.
+Add a style for the hover state of all a tags with a btn class within a div of class questions. On hover,
+those links should have a background and border color of #0069d9.*/
+div.questions p {
+  margin-top: 30px;
+}
+
+div.questions a.btn:hover{
+  background-color: #0069d9;
+  border-color: #0069d9;
+}
+div.questions a.btn {
+  border-radius: 5px;
+  color: #FFF;
+  background-color: #007bff;
+  border-color: #007bff;
+  text-decoration: none;
+  padding: 18px;
+  font-size: 20px;
+}
+
 
 footer{
   border-top: 1px solid #ccc;
